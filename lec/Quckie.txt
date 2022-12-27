@@ -1,0 +1,31 @@
+manifest//json format
+html
+js 
+css all in one
+/************************************/
+Extension types 
+1- Browser Action 
+    -stays in toolbar
+    -accessible at all times
+2- Page Action
+    -Stay in toolbaar but grey-ed out
+    -accessible only on certain pages
+3- Neither BA nor PA Actions
+    -Run in backgrounds
+    
+/**********************************/
+
+chrome storage -----get and set chrome API
+    in manifest ->permission -> storage
+
+/*********************************/
+
+options-page
+    - right click on the icon
+    -html ,css ,js
+    -if use this tell in manifest
+
+/*********************************/
+
+notification
+    in manifest ->permission -> storage
