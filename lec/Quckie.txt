@@ -7,6 +7,7 @@ Extension types
 1- Browser Action 
     -stays in toolbar
     -accessible at all times
+    //budget manager
 2- Page Action
     -Stay in toolbaar but grey-ed out
     -accessible only on certain pages
@@ -29,3 +30,17 @@ options-page
 
 notification
     in manifest ->permission -> storage
+
+/**********************************/
+
+2 types of pages - backgrounds and event
+background pages runs all the time 
+event pages runs only when required 
+background pages consume resources even when not required
+stick to event pages
+
+"background":{
+    "scripts":["eventPage.js"],
+    "persistent":false
+},
+and permission->contextMenu
