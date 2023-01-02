@@ -44,3 +44,28 @@ stick to event pages
     "persistent":false
 },
 and permission->contextMenu
+
+/**********************************/
+page Action Extension
+---------------------
+works on specific pages 
+other pages- inactive and grayed out 
+//project related (change font style | developer.chrome.com | basic styling)
+
+/**********************************/
+
+Contentscripts
+-run in the context of the web page
+-can change DOM
+-font color, hyperlinks ,structure DOM
+-limitation= can't use all chrome APIs
+-Exchange message between content scripts , background scipts and popup scripts
+
+popupscipt---->content scripts---->event page
+
+ContentScript Environment
+-isolated world
+-access to DOM
+-No access to variable and functions
+-reverse holds good 
+-button has alert on click from both webapages JS and  CS(ContentScript) both gets called
